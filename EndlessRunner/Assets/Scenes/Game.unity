@@ -432,7 +432,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 15.172397
+  MinDistance: 18.40472
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -963,6 +963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1d4224ed68220f45811e6525e72d126, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreManager: {fileID: 1378227008}
 --- !u!1 &560319678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1648,8 +1649,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45d198705d95cdb45b52e076fab2b005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MainCamera: {fileID: 519420031}
-  BlindCam: {fileID: 1891383556}
+  MainCamera: {fileID: 1891383556}
+  BlindCam: {fileID: 519420031}
   minimumInterval: 10
   maximumInterval: 30
 --- !u!4 &1070448498

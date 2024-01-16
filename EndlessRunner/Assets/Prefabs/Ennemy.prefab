@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -2398109927537114130}
   - component: {fileID: -7531822605156827161}
   - component: {fileID: -526773804378736648}
+  - component: {fileID: 7447522623227910356}
   m_Layer: 6
   m_Name: Ennemy
   m_TagString: Ennemy
@@ -211,3 +212,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 0.1
+--- !u!114 &7447522623227910356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7553583303024374084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e0ec4376c3e9da4d9f457262d326730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionSound: {fileID: 8300000, guid: f690847fdc201f141982915c50793949, type: 3}

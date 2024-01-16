@@ -3,16 +3,21 @@ using UnityEngine.SceneManagement;
 
 public class Death : MonoBehaviour
 {
-    private ScoreManager scoreManager;
+    public ScoreManager scoreManager;
 
-    void Awake()
+    private void Start()
+    {
+        Debug.Log(scoreManager);
+    }
+
+    /*void Awake()
     {
         scoreManager = FindObjectOfType<ScoreManager>();
         if (scoreManager == null)
         {
             Debug.LogError("ScoreManager non assigné dans l'éditeur Unity.");
         }
-    }
+    }*/
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
